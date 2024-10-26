@@ -1,0 +1,95 @@
+body {
+    background-color: #f0f8ff;
+    color: #2c2c2c;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005f99;
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 2px solid #e6e6e6;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #0000cc;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #e0f7ff2a;
+    color: #0000cc;
+}
+
+nav a.active {
+    color: #0000cc;
+    border-bottom: 2px solid #005f99;
+}
+
+/* Center the Main Heading */
+.centered-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.intro-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.skill-icon {
+    width: 50px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.flexbox2 {
+    display: flex;
+    gap: 20px;
+}
+
+.skills {
+    flex: 3;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
