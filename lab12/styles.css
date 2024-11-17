@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#slideshow-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#bigimages {
+    float: left;
+    width: 50%;
+}
+
+#planetinfo {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+#thumbnails {
+    clear: both;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#thumbnails img {
+    margin: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+#bigimages img {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+#planetinfo div {
+    display: none;
+}
