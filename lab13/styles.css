@@ -117,7 +117,7 @@ iframe.flex-item {
     outline: 3px solid #ffcc00;
 }
 a {
-    color: #005a9c;
+    color: #00000000;
     text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ a:visited {
 }
 
 .high-contrast-link {
-    color: #005a9c;
+    color: #000000;
     background-color: #ffffff;
     padding: 2px 4px;
     border-radius: 3px;
