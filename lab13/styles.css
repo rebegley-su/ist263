@@ -101,3 +101,18 @@ iframe.flex-item {
         display: none;
     }
 }
+.skip-to-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #005a9c; /* Dark blue background */
+    color: #ffffff;           /* White text */
+    padding: 10px;
+    z-index: 1000;
+    text-decoration: none;
+    font-size: 1rem; /* Relative unit for accessibility */
+}
+
+.skip-to-content:focus {
+    outline: 3px solid #ffcc00; /* Yellow outline for focus state */
+}
