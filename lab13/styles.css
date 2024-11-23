@@ -105,14 +105,41 @@ iframe.flex-item {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #005a9c; /* Dark blue background */
-    color: #ffffff;           /* White text */
+    background-color: #005a9c;
+    color: #ffffff;
     padding: 10px;
     z-index: 1000;
     text-decoration: none;
-    font-size: 1rem; /* Relative unit for accessibility */
+    font-size: 1rem;
 }
 
 .skip-to-content:focus {
-    outline: 3px solid #ffcc00; /* Yellow outline for focus state */
+    outline: 3px solid #ffcc00;
+}
+a {
+    color: #005a9c;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #4b0082;
+}
+
+.high-contrast-link {
+    color: #005a9c;
+    background-color: #ffffff;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.high-contrast-link:hover,
+.high-contrast-link:focus {
+    color: #ffffff;
+    background-color: #005a9c;
+    text-decoration: underline;
 }
